@@ -4,7 +4,7 @@ import threading
 agents = []
 lock = threading.Lock()
 
-HOST = '0.0.0.0'
+HOST = 'localhost'
 PORT = 9003
     
 def accept_cons(server):
